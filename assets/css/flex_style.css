@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    /*row es default pero hay mas propiedades (row, row reverse ,)*/
+    flex-wrap: wrap;
+    /*  default  no wrap  una linea , no-wrap (multi linea ) */
+    justify-content: center;
+    /* default flex-start( ), space-between  espacio entre ellos ,space-evenly espacio iguales ,center centrados */
+}
+
+.contenedor2 {
+    display: flex;
+    border: 1px solid blue;
+    height: 150px;
+    align-items: center;    /* default strech*/
+    justify-content: center;
+}
+
+.contenedor2 div {
+    background-color: orange;
+    width: 20%;
+    margin: 0 5px;
+   
+}
+
+
+/* propiedades item flex */
+
+.contenedor3{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    border: solid;
+}
+
+.contenedor3 div{
+    background-color: aqua;
+    margin: 0 5px;
+}
+
+.contenedor4{
+    display: flex;
+
+}
+
+.contenedor4 div{
+    width: 500px;
+    background-color: aquamarine;
+    margin: 0 2px;
+}
+
+.contenedor5{
+    display: flex;
+
+}
+
+.contenedor5 div{
+    flex-grow: 1;
+}
+
+.contenedor6{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 20pc;
+    border: solid 3px;
+}

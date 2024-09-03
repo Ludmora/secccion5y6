@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/flex_style.css">
+</head>
+
+<body>
+    <h1>aprendiendo flex-box</h1>
+    <div class="content">
+        <div>item 1</div>
+        <div>item 2</div>
+        <div>item 3</div>
+        <div>item 4</div>
+        <div>item 5</div>
+
+    </div>
+
+    <!-- ----align items -->
+    <h2>align items</h2>
+    <p>alinea en conjunto los items en el eje transversal (cross-axis)</p>
+    <div class="contenedor2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+
+
+    </div>
+
+    <!-- item felx propiedades -->
+
+    <h2>propiedades item flex </h2>
+    <h2>flex grop</h2>
+    <p>define el factor de crecimiento de los item flex </p>
+    <div class="contenedor3">
+        <div style="flex-grow: 0;">1</div>
+        <div style="flex-grow: 0;">1</div>
+        <div style="flex-grow: 0;">1</div>
+
+    </div>
+
+    <!-- flex shrink -->
+
+    <h2>flex-shrink</h2>
+    <p>define el factor de encogimiento cuando no tengo disponible. valor por default flex-shrink:1</p>
+
+    <div class="contenedor4">
+        <div style="flex-shrink:1 ;">1</div>
+        <div style="flex-shrink:2 ;">1</div>
+        <div style="flex-shrink:1 ;">1</div>
+
+
+
+    </div>
+
+    <!-- <flex-basic> -->
+    <h2></h2>
+    <p>reserva el espacio al elemento antes que el espacio sobrante sea repartido </p>
+    <div class="contenedor5">
+        <div style="flex-basis: 200px;">1</div>
+        <div style="flex-basis: auto;">2</div>
+        <div style="flex-basis: auto;">3</div>     
+        
+    </div>
+
+
+    <!-- ----align-self -->
+    <h2>align self</h2>
+    <p></p>
+    <div class="contenedor6">
+        <div>1</div>
+        <div style="align-self:flex-start">2</div>
+        <div style="align-self:flex-end">3</div>
+        
+
+
+    </div>
+
+
+</body>
+
+</html>

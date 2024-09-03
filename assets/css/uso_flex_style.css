@@ -1,0 +1,122 @@
+.flex-container{
+    display: flex;
+    border:  2px solid black;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ejemplo 2  */
+
+.form{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+
+.form button{
+    border-radius:  20px;
+background-color:  aqua;
+color: grey;
+
+}
+
+
+/* ejemplo3  */
+
+.navegacion{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 80%;
+margin: 0 auto;
+border: solid 1px red;
+padding: 0 2%;
+}
+
+.navegacion ul{
+    display: flex;
+    gap: 8px;
+}
+
+/* ejemplo4 */
+
+.tag{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 60%;
+    gap: 10px;
+    
+}
+
+
+.tag div{
+flex-basis: 30%;
+flex-grow: 1;
+background-color: pink;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+/* ejemplo 5  */
+
+.chact-contact{
+width: 30vw;
+margin: 0 auto;
+max-width: 400px;
+min-width: 300px;
+background-color: antiquewhite;
+border-radius: 10px;
+}
+
+.chact-contact__menu{
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    box-shadow: 0 2px 6px;
+    align-items: ;
+
+}
+
+
+
+.chact-contact__item{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 15px;
+    border-bottom: 2px solid gray;
+}
+
+.chact-contact__item:not(:last-child){
+    border-bottom: 1px solid white ;
+    }
+
+.chact-contact__img{
+    width: 80px;
+    height: 80px;
+    min-width: 40px;
+    
+}
+.chact-contact__img img{
+    width: 100%;
+    border-radius: 50%;
+} 
+
+.chact-contact__content{
+    flex-grow: 1;
+}
+
+.chact-contact__content h4{
+margin: 10px;
+font-size: 1.25rem;
+}
+
+.chact-contact__content p{
+color: gray;
+}
